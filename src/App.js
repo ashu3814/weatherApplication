@@ -24,7 +24,7 @@ function WeatherDetails({ weather }) {
 }
 
 function App() {
-  const apiKey = "c5337a8a266ea5c4feda5cd776718be1";
+  const apiKey = "apiKey";
   const [inputCity, setInputCity] = useState("");
   const [data, setData] = useState({});
   const [loading, setLoading] = useState(false);
